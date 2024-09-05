@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#logo {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#titulo-superior {
+    margin-top: 75px;
+    margin-left: 150px;
+}
+
+#titulo-inferior {
+    margin-left: 150px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+}
+
+#menu-superior {
+    background-image: url(Imagens/image.png);
+    color: #FFFFFF;}
+
+#menu-inferior {
+    background-color: #EAECE5;
+    color: #122235;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone {
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+
+#secvideo {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+}
+
+#video {
+    margin: 50px 0px 50px 150px;
+}
+
+.texto-informativo {
+    display: flex;
+    align-items: center;
+}
+
+#titulo-video {
+    color: #247BA0;
+    margin-top: 50px;
+
+}
+
+#texto-video {
+    color: #383838;
+
+}
+
+#carrossel {
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#titulo-carossel {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#cards {
+    display: grid;
+    grid-auto-flow: column;
+
+}
+
+.card {
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+#setaEsquerda {
+    display: none;
+}
+#setaDireita {
+    display: flex;
+}
+
+#Bruna {
+    display: none;
+}
+
+#Leonardo {
+    display: flex;
+}
+
+.seta {
+    margin-top: 55%;
+    cursor: pointer;
+
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#formulario{
+    text-align: center;
+}
+
+#texto-formulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+
+}
+
+input{
+    width: 300px;height: 40px;
+    margin: 10px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: #EAECE5;
+    padding-left: 10px;
+}
+
+button {
+    width: 250px;height: 40px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: #247BA0;
+    color: #EAECE5;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #5ab1d6;
+    color: white;
+    transform: scale(105%);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+    transition-duration: 0.5s ;
+}
